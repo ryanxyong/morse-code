@@ -9,6 +9,7 @@
 #include <string.h>
 #include <ctype.h>
 
+// Lookup table for alphas in Morse code
 const char* ALPHA_TO_MORSE[] = {
     "._", "_...", "_._.", "_..", ".",
     ".._.", "__.", "....", "..", ".___",
@@ -18,6 +19,7 @@ const char* ALPHA_TO_MORSE[] = {
     "__.."
 };
 
+// Lookup table for numbers in Morse code
 const char* NUM_TO_MORSE[] = {
     "_____", ".____", "..___", "...__", "...._",
     ".....", "_....", "__...", "___..", "____."
